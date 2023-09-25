@@ -1,0 +1,56 @@
+
+.banner{
+    background-image: url('../../assets/banner.svg');
+    background-size: cover;
+    max-width: 100%;
+    height: 85vh;
+}
+
+.container-title{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 9.5vw;
+    height: 100%;
+    
+}
+.title1{
+    font-size: 3.5rem;
+    font-weight: 200;
+    border-top: 4px solid rgba(255, 187, 51, 1);
+}
+
+.title2{
+    font-size: 3.8rem;
+    font-weight: 600;
+}
+
+span{
+    margin: 0 0 1.5rem ;
+}
+
+.logo-igreja{
+    margin-top: 1rem;
+    width: 10rem;
+}
+.logo-igrejasvg{
+    position: fixed;
+    top: 12rem;
+    right: 0;
+}
+
+@media screen and (max-width: 960px) {
+
+    .container-title{
+        align-items: center;
+        padding: 0;
+    }
+
+    .logo-igrejasvg{
+        position: fixed;
+        top: 14rem;
+        right: 0;
+        width: 20rem;
+    }
+}

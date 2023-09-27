@@ -1,0 +1,35 @@
+.containerSobre{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: rgba(85, 32, 78, 0.1);
+    color: #000000;
+    max-width: 1500px;
+
+}
+
+.sobre{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 15% 10% 8%;
+}
+
+h2 {
+    border-top: 4px solid rgba(255, 187, 51, 1);
+    font-size: 1.8rem;
+    width: fit-content;
+}
+
+.sobre > p > img {
+    width: 1rem;
+}
+
+@media screen and (min-width: 960px) {
+    .sobre{
+        padding: 5% 9.5%;
+    }
+
+}

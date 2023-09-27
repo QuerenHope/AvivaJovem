@@ -3,10 +3,12 @@ import logo from '../../assets/logoIgreja.svg'
 import logosvg from '../../assets/logosvg.svg'
 
 import { Button } from '../Button'
+import video from '../../assets/video.mp4'
+
 
 const Banner = () => {
   return (
-    <>
+    <div className='container'>
         <div className='banner'>
             <div className='container-title'>
                  <h1 className='title1'>Retiro </h1>
@@ -17,7 +19,12 @@ const Banner = () => {
             </div>
             <img className='logo-igrejasvg' src={logosvg} alt="logo tabernaculo em anapolis" />   
         </div>
-    </>
+        <div className='video'>
+        <video width="520" height="340" controls autoPlay loop>
+            <source src={video} type="video/mp4"/>
+        </video>
+        </div>
+    </div>
   )
 }
 

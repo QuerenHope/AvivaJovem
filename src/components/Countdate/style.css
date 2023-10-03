@@ -1,0 +1,46 @@
+.container-counter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 5rem;
+
+    background-color: rgba(255, 187, 51, 1);
+    color: #303030;
+}
+
+.countdown-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+    background-color: #3C1738;
+}
+
+.counter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+    
+}
+
+.counter > p{
+    color: #ECECEC;
+    font-size: 250%;
+}
+
+.counter > span{
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFBB33;
+    margin: 0;
+}

@@ -3,15 +3,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    
 }
 
 .title-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
     height: 5rem;
-
+    width: 100%;
     background-color: rgba(255, 187, 51, 1);
     color: #303030;
 }
@@ -19,8 +20,8 @@
 .countdown-container{
     display: flex;
     align-items: center;
+    width: 100%;
     justify-content: space-evenly;
-    width: 100vw;
     background-color: #3C1738;
 }
 

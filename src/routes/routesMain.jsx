@@ -1,14 +1,14 @@
 import { Route, Routes } from "react-router-dom";
 import HomePage from "../pages/HomePage";
-import ContactPage from "../pages/ContactPage";
 import RegistrationPage from "../pages/RegistrationPage";
+import LoadingPage from "../pages/ContactPage";
 
 export const RoutesMain = () => {
    return (
       <Routes>
-         <Route path="/" element={<HomePage />} />
-         <Route path="/contact" element={<ContactPage />} />
-         <Route path="/Registration" element={<RegistrationPage />} />
+         <Route path="/" element={<LoadingPage />} />
+         <Route path="/home" element={<HomePage />} />
+         <Route path="/registration" element={<RegistrationPage />} />
       </Routes>
    );
 };

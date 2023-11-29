@@ -1,10 +1,12 @@
+import Loading from "../../components/Loading"
+import './style.css'
 
-const ContactPage = () => {
+const LoadingPage = () => {
   return (
-    <div>
-      <h1>ContactPage</h1>
+    <div className="container-contact">
+      <Loading />
     </div>
   )
 }
 
-export default ContactPage
+export default LoadingPage

@@ -20,7 +20,7 @@ const Banner = () => {
             <img className='logo-igrejasvg' src={logosvg} alt="logo tabernaculo em anapolis" />   
         </div>
         <div className='video'>
-        <video width="520" height="340" controls autoPlay loop>
+        <video width="520" height="340" controls >
             <source src={video} type="video/mp4"/>
         </video>
         </div>

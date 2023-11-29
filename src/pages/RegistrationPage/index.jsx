@@ -1,9 +1,12 @@
+import Footer from "../../components/Footer"
+import Navbar from "../../components/Navbar"
 
 const RegistrationPage = () => {
   return (
-    <div>
-      <h1>RegistrationPage</h1>
-    </div>
+    <>
+      <Navbar/>
+      <Footer />
+    </>
   )
 }
 

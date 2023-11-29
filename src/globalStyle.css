@@ -1,3 +1,17 @@
+*::-webkit-scrollbar {
+	width: 14px;
+}
+
+*::-webkit-scrollbar-track {
+	background: #3C1738;
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: #a3772063;
+	border-radius: 10px;
+	border: 5px solid #3C1738;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -8,6 +22,7 @@
 
 body{
   min-height: 100vh;
+  
 }
 
 button{

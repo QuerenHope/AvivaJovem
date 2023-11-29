@@ -11,7 +11,7 @@ const About = () => {
             <p><img src={icon} alt="" /> Dirigido pelo Pastor Mauro Cardoso, o Aviva Jovem tem transformado vidas e promovendo uma experiência real com Deus.</p>
             <p><img src={icon} alt="" /> Realizado há vários anos, o evento acontece no Acampamento El Rancho, em Corumbá de Goiás, com duração de três dias e já se tornou tradicional entre os jovens da Mensagem no Brasil.</p>       
         </div>
-            <Button>Saiba mais</Button>
+            <Button buttonStyle='btn--primary'>Saiba mais</Button>
     </div>
   )
 }

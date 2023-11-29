@@ -11,10 +11,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 5rem;
+    height: clamp(3.5rem , 6vw , 8rem);
     width: 100%;
     background-color: rgba(255, 187, 51, 1);
     color: #303030;
+    font-size: clamp(40%, 4.5VW, 150%);
 }
 
 .countdown-container{
@@ -30,13 +31,13 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 2rem;
+    padding: clamp(0.2rem, 5vw, 1.5rem) ;
     
 }
 
 .counter > p{
     color: #ECECEC;
-    font-size: 250%;
+    font-size: clamp(60%, 8VW, 250%);
 }
 
 .counter > span{
